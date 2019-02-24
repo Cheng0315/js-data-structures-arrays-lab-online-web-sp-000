@@ -24,3 +24,11 @@ function appendDriver(name) {
 function prependDriver(name) {
   return [name, ...drivers]
 }
+
+function prependDriver() {
+  return drivers.slice(-1)
+}
+
+function prependDriver() {
+  return [name, ...drivers]
+}
